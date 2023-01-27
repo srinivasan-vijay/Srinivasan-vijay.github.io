@@ -1161,11 +1161,11 @@ main {
 }
 
 .form-input {
-  color: var(--white-2);
+  color: var(--dark-black);
   font-size: var(--fs-6);
   font-weight: var(--fw-400);
   padding: 13px 20px;
-  border: 1px solid var(--white-2);
+  border: 1px solid var(--apple-blue);
   border-radius: 14px;
   outline: none;
 }
