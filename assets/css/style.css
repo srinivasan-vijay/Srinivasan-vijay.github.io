@@ -397,12 +397,6 @@ main {
   z-index: -1;
 }
 
-.info_more-btn:hover,
-.info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
-
-.info_more-btn:hover::before,
-.info_more-btn:focus::before { background: var(--bg-gradient-yellow-2); }
-
 .info_more-btn span { display: none; }
 
 .sidebar-info_more {
@@ -479,7 +473,7 @@ main {
   left: 0;
   width: 100%;
   backdrop-filter: saturate(180%) blur(20px);
-  border: 1px solid var(--white-2);
+  background-color: var(--white-1);
   border-radius: 12px 12px 0 0;
   box-shadow: var(--shadow-2);
   z-index: 5;
@@ -1220,10 +1214,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .form-btn ion-icon { font-size: 16px; }
-
-.form-btn:hover { background: var(--bg-gradient-yellow-1); }
-
-.form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
 .form-btn:disabled {
   cursor: not-allowed;
