@@ -605,7 +605,7 @@
   
   .testimonials-avatar-box-accenture {
     position: absolute;
-    bottom: 75px;
+    bottom: 85px;
     left: 0;
     transform: translate(15px, -25px);
     border-radius: 14px;
@@ -613,7 +613,7 @@
 
   .testimonials-avatar-box-coursera {
     position: absolute;
-    bottom: 65px;
+    bottom: 230px;
     left: 0;
     transform: translate(15px, -25px);
     border-radius: 14px;
@@ -621,7 +621,7 @@
 
   .testimonials-avatar-box-udemy {
     position: absolute;
-    bottom: 65px;
+    bottom: 100px;
     left: 0;
     transform: translate(15px, -25px);
     border-radius: 14px;
